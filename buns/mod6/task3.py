@@ -4,7 +4,7 @@ def get_armstrong():
             arm_number = 0
             for el in str(i):
                 arm_number += int(el)**len(str(i))
-            if (i == arm_number and i not in range(2,10)):
+            if i == arm_number:
                 yield arm_number
 
 gen = get_armstrong()
