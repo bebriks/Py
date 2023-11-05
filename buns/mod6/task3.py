@@ -1,6 +1,6 @@
 def get_armstrong():
     while(True):
-        for i in range(1, 100_000):
+        for i in range(100, 100_000):
             arm_number = 0
             for el in str(i):
                 arm_number += int(el)**len(str(i))
